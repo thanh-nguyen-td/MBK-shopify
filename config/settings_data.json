@@ -149,7 +149,7 @@
           "logo_width": 140,
           "logo_position": "middle-left",
           "menu": "header-mbk",
-          "menu_type_desktop": "mega",
+          "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "mobile_logo_position": "center",
