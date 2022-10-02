@@ -146,9 +146,9 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/MBK_360x_6164edfe-afe2-48b0-86ab-e74ccac38781.png",
-          "logo_width": 90,
+          "logo_width": 140,
           "logo_position": "middle-left",
-          "menu": "main-menu",
+          "menu": "header-mbk",
           "menu_type_desktop": "mega",
           "show_line_separator": true,
           "enable_sticky_header": true,
