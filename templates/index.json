@@ -58,19 +58,19 @@
         "16647188564115906d-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "home-page"
           }
         },
         "16647188564115906d-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "shirt"
           }
         },
         "16647188564115906d-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "shoes-1"
           }
         }
       },
@@ -98,19 +98,19 @@
         "166471896623865fee-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "shoes-1"
           }
         },
         "166471896623865fee-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "home-page"
           }
         },
         "166471896623865fee-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "shirt"
           }
         }
       },
@@ -138,7 +138,7 @@
         "1664718988181e506b-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Welcome to MBK",
             "heading_size": "h1"
           }
         },
@@ -148,19 +148,11 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
-        },
-        "1664718988181e506b-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "1664718988181e506b-0",
-        "1664718988181e506b-1",
-        "1664718988181e506b-2"
+        "1664718988181e506b-1"
       ],
       "settings": {
         "height": "adapt",
@@ -178,32 +170,16 @@
     "1664719027378ad098": {
       "type": "image-with-text",
       "blocks": {
-        "166471902686cd8833-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
         "166471902686cd8833-1": {
           "type": "text",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
-        },
-        "166471902686cd8833-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "166471902686cd8833-0",
-        "166471902686cd8833-1",
-        "166471902686cd8833-2"
+        "166471902686cd8833-1"
       ],
       "settings": {
         "height": "adapt",
