@@ -197,24 +197,32 @@
     "166472122183d13ea9": {
       "type": "image-with-text",
       "blocks": {
-        "16647212215a706ce4-1": {
+        "3e298c4b-9142-49b6-880b-e2f3c875fe11": {
           "type": "text",
           "settings": {
-            "text": "<p>150 Elgin Street Ottawa<\/p>",
-            "text_style": "subtitle"
+            "text": "<p>150 Elgin Street Ottawa<br\/>Ontario CA K2P 1L4<\/p><p><\/p>",
+            "text_style": "body"
           }
         },
         "78b74f63-4905-4d50-8b51-bed46f2edb9b": {
           "type": "text",
           "settings": {
-            "text": "<p>Ontario CA K2P 1L4<\/p>",
+            "text": "<p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>",
             "text_style": "body"
+          }
+        },
+        "43a2d22c-4d9e-44b1-9cc7-97ffebfdb245": {
+          "type": "button",
+          "settings": {
+            "button_label": "DIRECTION",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "16647212215a706ce4-1",
-        "78b74f63-4905-4d50-8b51-bed46f2edb9b"
+        "3e298c4b-9142-49b6-880b-e2f3c875fe11",
+        "78b74f63-4905-4d50-8b51-bed46f2edb9b",
+        "43a2d22c-4d9e-44b1-9cc7-97ffebfdb245"
       ],
       "settings": {
         "height": "adapt",
