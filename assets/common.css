@@ -9,6 +9,10 @@
     color:#fff
 }
 
+.uppercase{
+    text-transform: uppercase !important;
+}
+
 /* text weight */
 .text_400{
     font-weight: 400;
