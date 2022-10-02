@@ -193,6 +193,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "166472122183d13ea9": {
+      "type": "image-with-text",
+      "blocks": {
+        "16647212215a706ce4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>150 Elgin Street Ottawa<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "78b74f63-4905-4d50-8b51-bed46f2edb9b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ontario CA K2P 1L4<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16647212215a706ce4-1",
+        "78b74f63-4905-4d50-8b51-bed46f2edb9b"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -200,6 +235,7 @@
     "1664718856fa21f914",
     "1664718966cc5bf459",
     "16647189886bd98a9f",
-    "1664719027378ad098"
+    "1664719027378ad098",
+    "166472122183d13ea9"
   ]
 }
