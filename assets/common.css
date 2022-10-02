@@ -1,0 +1,38 @@
+/* text color */
+.text_link{
+    text-decoration: none;
+}
+.text_black{
+    color: #000;
+}
+.text_white{
+    color:#fff
+}
+
+/* text weight */
+.text_400{
+    font-weight: 400;
+}
+.text_500{
+    font-weight: 500;
+}
+.text_600{
+    font-weight: 600;
+}
+
+/* margin */
+.mt_10{
+    margin-top: 10px;
+}
+.mb_10{
+    margin-bottom: 10px;
+}
+.mr_10{
+    margin-right: 10px;
+}
+.ml_10{
+    margin-left: 10px;
+}
+.mg_10{
+    margin: 10px;
+}
