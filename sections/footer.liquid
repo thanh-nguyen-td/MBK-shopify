@@ -23,6 +23,18 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  .footer .wrap-button{
+    display:flex; 
+    justify-content:center; 
+    margin-top:20px
+  }
+  .footer .wrap-button .custom-button{
+    padding:13px 20px ;
+    background:#f25c54;
+    border:0;
+    font-size:16px;
+    color:#fff
+  }
 
   @media screen and (min-width: 750px) {
     .footer {
@@ -91,10 +103,13 @@
                     {%- endif -%}
                   </div>
                   {%- when 'email' -%}
+                    <div class="footer-block__details-content rte">
+                      {{ block.settings.subtext }}
+                    </div>
                     {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                       <input type="hidden" name="contact[tags]" value="newsletter">
                       <div class="newsletter-form__field-wrapper">
-                        <div class="field">
+                        <div class="field" style="margin-top: 20px;">
                           <input
                             id="NewsletterForm--{{ section.id }}"
                             type="email"
@@ -118,8 +133,10 @@
                           <label class="field__label" for="NewsletterForm--{{ section.id }}">
                             {{ 'newsletter.label' | t }}
                           </label>
-                          <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
-                            {% render 'icon-arrow' %}
+                        </div>
+                        <div class="wrap-button">
+                          <button type="submit" class="custom-button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
+                            {{block.settings.button_text}}
                           </button>
                         </div>
                         {%- if form.errors -%}
@@ -533,11 +550,6 @@
           "id": "button_text",
           "default": "Subscribe",
           "label": "button label"
-        },
-        {
-          "type": "text",
-          "id": "button_link",
-          "label": "button link"
         }
       ]
     }
