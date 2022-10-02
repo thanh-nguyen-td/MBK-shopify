@@ -30,7 +30,16 @@
   endif 
 -%}
 
-<div class="card-wrapper animate-arrow {% if wrapper_class and wrapper_class != 'none' %}{{ wrapper_class }}{% else %}collection-card-wrapper{% endif %}">
+{% style %}
+  .card-collection-type-1 .card__heading{
+    text-align: center;
+  }
+  .card-collection-type-1 .icon-wrap{
+    display: none;
+  }
+{% endstyle %}
+
+<div class="card-collection-type-1 card-wrapper animate-arrow {% if wrapper_class and wrapper_class != 'none' %}{{ wrapper_class }}{% else %}collection-card-wrapper{% endif %}">
   <div class="card
     card--{{ card_style }}
     {% if card_collection.featured_image %} card--media{% else %} card--text{% endif %}
@@ -68,7 +77,7 @@
       {%- endif -%}
       <div class="card__content">
         <div class="card__information">
-          <h3 class="card__heading">
+          <h3 class="card__heading" >
             <a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ card_collection.url }}"{% endif %} class="full-unstyled-link">
               {%- if card_collection.title != blank -%}
                 {{- card_collection.title | escape -}}
