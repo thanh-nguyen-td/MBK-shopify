@@ -181,12 +181,22 @@
               "heading": "Our mission",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
+          },
+          "76aaa9b5-4041-4146-97b3-6a1f2e395e45": {
+            "type": "email",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "Sign up for the latest news, offers and styles",
+              "button_text": "Subscribe",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "footer-2",
+          "76aaa9b5-4041-4146-97b3-6a1f2e395e45"
         ],
         "settings": {
           "color_scheme": "background-1",
