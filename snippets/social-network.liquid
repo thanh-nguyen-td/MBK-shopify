@@ -10,7 +10,7 @@
 <ul class="footer__list-social list-unstyled list-social" role="list">
     {%- if settings.social_twitter_link != blank -%}
       <li class="list-social__item">
-        <a href="{{ settings.social_twitter_link }}" class="link list-social__link">
+        <a href="{{ settings.social_twitter_link }}" class="link list-social__link" style="color:#000">
           {%- render 'icon-twitter' -%}
           <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
         </a>
@@ -84,6 +84,9 @@
 
   {% style %}
   .list-social__link{
-    color:#fff !important
+    color:#000
+  }
+  .list-social{
+    justify-content:start
   }
   {% endstyle %}
