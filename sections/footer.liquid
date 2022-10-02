@@ -102,7 +102,7 @@
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                     {%- endif -%}
                   </div>
-                  {%- when 'email' -%}
+                {%- when 'email' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
@@ -147,6 +147,12 @@
                         <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="ContactFooter-success" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
                       {%- endif -%}
                     {%- endform -%}
+                    {%- when 'soical_network' -%}
+                      {% if block.settings.show_network != blank %}
+                        <div>
+                          {% render 'social-network' %}
+                         </div>
+                      {% endif %}
                 {%- endcase -%}
             </div>
           {%- endfor -%}
@@ -550,6 +556,24 @@
           "id": "button_text",
           "default": "Subscribe",
           "label": "button label"
+        }
+      ]
+    },
+    {
+      "type": "soical_network",
+      "name": "Soical network",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Heading",
+          "label": "t:sections.footer.blocks.text.settings.heading.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_network",
+          "default": true,
+          "label": "show soical network"
         }
       ]
     }

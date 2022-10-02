@@ -1,3 +1,12 @@
+{% comment %}
+    Renders a lisst social network
+
+    Accepts:null
+
+    Usage:
+    {% render 'social-network' %}
+{% endcomment %}
+
 <ul class="footer__list-social list-unstyled list-social" role="list">
     {%- if settings.social_twitter_link != blank -%}
       <li class="list-social__item">
